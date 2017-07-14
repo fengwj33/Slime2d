@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Slime2d" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="SDL_lib/include" />
+					<Add directory="Engine/include" />
+					<Add directory="SDL_lib/lib" />
+					<Add directory="CPprefab/include" />
+					<Add directory="GMprefab/include" />
+					<Add directory="Engine/TMXMap" />
+				</Compiler>
+				<Linker>
+					<Add library="SDL_lib\lib\SDL2_image.lib" />
+					<Add library="SDL_lib\lib\SDL2main.lib" />
+					<Add library="SDL_lib\lib\SDL2test.lib" />
+					<Add library="SDL_lib\lib\SDL2.lib" />
+					<Add library="SDL_lib\lib\SDL2_mixer.lib" />
+					<Add directory="SDL_lib/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CPprefab/include/Animation.h" />
+		<Unit filename="CPprefab/include/AudioSource.h" />
+		<Unit filename="CPprefab/include/AutoRemove.h" />
+		<Unit filename="CPprefab/include/Button.h" />
+		<Unit filename="CPprefab/include/Camera.h" />
+		<Unit filename="CPprefab/include/CrossRenderer.h" />
+		<Unit filename="CPprefab/include/RectArea.h" />
+		<Unit filename="CPprefab/include/TextureRenderer.h" />
+		<Unit filename="CPprefab/include/TiledObjRenderer.h" />
+		<Unit filename="CPprefab/include/TilemapRenderer.h" />
+		<Unit filename="CPprefab/include/keepRotation.h" />
+		<Unit filename="CPprefab/src/Animation.cpp" />
+		<Unit filename="CPprefab/src/AudioSource.cpp" />
+		<Unit filename="CPprefab/src/AutoRemove.cpp" />
+		<Unit filename="CPprefab/src/Button.cpp" />
+		<Unit filename="CPprefab/src/Camera.cpp" />
+		<Unit filename="CPprefab/src/CrossRenderer.cpp" />
+		<Unit filename="CPprefab/src/RectArea.cpp" />
+		<Unit filename="CPprefab/src/TextureRenderer.cpp" />
+		<Unit filename="CPprefab/src/TiledObjRenderer.cpp" />
+		<Unit filename="CPprefab/src/TilemapRenderer.cpp" />
+		<Unit filename="CPprefab/src/keepRotation.cpp" />
+		<Unit filename="Engine/TMXMap/NLTmxMap.cpp" />
+		<Unit filename="Engine/TMXMap/NLTmxMap.h" />
+		<Unit filename="Engine/TMXMap/rapidxml.hpp" />
+		<Unit filename="Engine/TMXMap/rapidxml_iterators.hpp" />
+		<Unit filename="Engine/TMXMap/rapidxml_print.hpp" />
+		<Unit filename="Engine/TMXMap/rapidxml_utils.hpp" />
+		<Unit filename="Engine/include/Application.h" />
+		<Unit filename="Engine/include/AudioFramework.h" />
+		<Unit filename="Engine/include/Component.h" />
+		<Unit filename="Engine/include/Define.h" />
+		<Unit filename="Engine/include/Director.h" />
+		<Unit filename="Engine/include/GameObject.h" />
+		<Unit filename="Engine/include/InputFramework.h" />
+		<Unit filename="Engine/include/ObjectsManager.h" />
+		<Unit filename="Engine/include/RectTransform.h" />
+		<Unit filename="Engine/include/RenderFramework.h" />
+		<Unit filename="Engine/include/Slime2d.h" />
+		<Unit filename="Engine/include/TileMap.h" />
+		<Unit filename="Engine/src/Application.cpp" />
+		<Unit filename="Engine/src/AudioFramework.cpp" />
+		<Unit filename="Engine/src/Component.cpp" />
+		<Unit filename="Engine/src/Define.cpp" />
+		<Unit filename="Engine/src/Director.cpp" />
+		<Unit filename="Engine/src/GameObject.cpp" />
+		<Unit filename="Engine/src/InputFramework.cpp" />
+		<Unit filename="Engine/src/ObjectsManager.cpp" />
+		<Unit filename="Engine/src/RectTransform.cpp" />
+		<Unit filename="Engine/src/RenderFramework.cpp" />
+		<Unit filename="Engine/src/TileMap.cpp" />
+		<Unit filename="GMprefab/include/ButtonSample.h" />
+		<Unit filename="GMprefab/include/Cross.h" />
+		<Unit filename="GMprefab/src/ButtonSample.cpp" />
+		<Unit filename="GMprefab/src/Cross.cpp" />
+		<Unit filename="Main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

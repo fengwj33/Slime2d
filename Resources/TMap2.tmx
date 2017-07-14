@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" name="auto_001" tilewidth="32" tileheight="32" tilecount="12" columns="3">
+  <image source="D:/Project/HelloWorld/Resources/auto_001.png" trans="2b8585" width="96" height="128"/>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1bsOgzAQBMADQRIe//+9cZfIQkJu4LCmmH5XJ3vHiBgBeJSpmBu8EmQ+8i4+DZYEmbP2GDrp0cs99PhZi63BniAz/al3M+sunqn/hazvXo9n6aVHvTf2BAAAAAC40vDn7ix6RHwBoQEWWA==
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object id="1" name="SpawnPoint" x="224" y="1377" width="96" height="31"/>
+  <object id="2" x="655" y="0"/>
+ </objectgroup>
+</map>

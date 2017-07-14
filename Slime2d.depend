@@ -1,0 +1,604 @@
+# depslib dependency file v1.0
+1499932955 source:d:\gameengine\src\gameengine\main.cpp
+	<iostream>
+	<Slime2d.h>
+	"CrossRenderer.h"
+	"TextureRenderer.h"
+	"keepRotation.h"
+	"AudioSource.h"
+	"AutoRemove.h"
+	"Cross.h"
+	"ButtonSample.h"
+	"TilemapRenderer.h"
+	"Camera.h"
+	"TiledObjRenderer.h"
+
+1466673937 source:d:\gameengine\src\gameengine\engine\src\renderframework.cpp
+	"RenderFramework.h"
+
+1466673825 d:\gameengine\src\gameengine\engine\include\renderframework.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<algorithm>
+	<iostream>
+	<string>
+	"Define.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_config.h
+	"SDL_platform.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\begin_code.h
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\close_code.h
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451707198 d:\gameengine\src\gameengine\sdl_lib\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800387 d:\gameengine\src\gameengine\sdl_lib\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461134489 d:\gameengine\src\gameengine\engine\include\define.h
+	<math.h>
+	<functional>
+
+1459646542 source:d:\gameengine\src\gameengine\engine\src\slime2d.cpp
+	"Slime2d.h"
+
+1466662389 d:\gameengine\src\gameengine\engine\include\slime2d.h
+	"Application.h"
+	"Define.h"
+	"ObjectsManager.h"
+	"Director.h"
+	"RenderFramework.h"
+	"AudioFramework.h"
+	"TileMap.h"
+	"GameObject.h"
+	"Component.h"
+
+1461128867 source:d:\gameengine\src\gameengine\engine\src\component.cpp
+	"Component.h"
+	"Slime2d.h"
+
+1461128279 d:\gameengine\src\gameengine\engine\include\component.h
+	<string>
+	"RectTransform.h"
+
+1460381924 source:d:\gameengine\src\gameengine\engine\src\director.cpp
+	"Director.h"
+
+1460381973 d:\gameengine\src\gameengine\engine\include\director.h
+	"RenderFramework.h"
+	"ObjectsManager.h"
+
+1466592536 source:d:\gameengine\src\gameengine\engine\src\gameobject.cpp
+	"GameObject.h"
+	"Slime2d.h"
+	<iostream>
+
+1460977427 d:\gameengine\src\gameengine\engine\include\gameobject.h
+	<vector>
+	"Application.h"
+	"Director.h"
+	"RenderFramework.h"
+	"AudioFramework.h"
+	"RectTransform.h"
+	"InputFramework.h"
+
+1466674576 source:d:\gameengine\src\gameengine\engine\src\application.cpp
+	"Application.h"
+	"GameObject.h"
+	<SDL.h>
+	<iostream>
+
+1466587453 d:\gameengine\src\gameengine\engine\include\application.h
+	"Director.h"
+	"ObjectsManager.h"
+	"AudioFramework.h"
+	"InputFramework.h"
+	<string>
+
+1459932373 d:\gameengine\src\gameengine\engine\include\objectsmanager.h
+	<vector>
+	<string>
+
+1459946721 source:d:\gameengine\src\gameengine\engine\src\objectsmanager.cpp
+	"ObjectsManager.h"
+	<iostream>
+
+1460976735 source:d:\gameengine\src\gameengine\engine\src\define.cpp
+	"Define.h"
+	<iostream>
+
+1460297167 source:d:\gameengine\src\gameengine\engine\src\recttransform.cpp
+	"RectTransform.h"
+
+1460260870 d:\gameengine\src\gameengine\engine\include\recttransform.h
+	"Define.h"
+
+1466588516 source:d:\gameengine\src\gameengine\cpprefab\src\crossrenderer.cpp
+	"CrossRenderer.h"
+
+1460298630 d:\gameengine\src\gameengine\cpprefab\include\crossrenderer.h
+	"Slime2d.h"
+
+1466592615 source:d:\gameengine\src\gameengine\gmprefab\src\cross.cpp
+	"Cross.h"
+	"RectArea.h"
+
+1460294429 d:\gameengine\src\gameengine\gmprefab\include\cross.h
+	"Slime2d.h"
+	"CrossRenderer.h"
+	"keepRotation.h"
+	"TextureRenderer.h"
+
+1460814385 d:\gameengine\src\gameengine\cpprefab\include\keeprotation.h
+	"Slime2d.h"
+
+1460434771 source:d:\gameengine\src\gameengine\cpprefab\src\keeprotation.cpp
+	"keepRotation.h"
+
+1466669697 source:d:\gameengine\src\gameengine\cpprefab\src\texturerenderer.cpp
+	"TextureRenderer.h"
+
+1460643183 d:\gameengine\src\gameengine\cpprefab\include\texturerenderer.h
+	"Slime2d.h"
+
+1451744208 d:\gameengine\src\gameengine\sdl_lib\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1460645036 source:d:\gameengine\src\gameengine\engine\src\audioframework.cpp
+	"AudioFramework.h"
+
+1460644770 d:\gameengine\src\gameengine\engine\include\audioframework.h
+	"SDL.h"
+	"SDL_mixer.h"
+	<vector>
+	<string>
+
+1461134744 source:d:\gameengine\src\gameengine\cpprefab\src\audiosource.cpp
+	"AudioSource.h"
+
+1461134202 d:\gameengine\src\gameengine\cpprefab\include\audiosource.h
+	"Slime2d.h"
+
+1460645736 source:d:\gameengine\src\gameengine\cpprefab\src\autoremove.cpp
+	"AutoRemove.h"
+
+1460645286 d:\gameengine\src\gameengine\cpprefab\include\autoremove.h
+	"Slime2d.h"
+
+1460978187 d:\gameengine\src\gameengine\engine\include\inputframework.h
+	"SDL.h"
+	"Define.h"
+	<vector>
+
+1460978431 source:d:\gameengine\src\gameengine\engine\src\inputframework.cpp
+	"InputFramework.h"
+
+1466755325 source:d:\gameengine\src\gameengine\cpprefab\src\rectarea.cpp
+	"RectArea.h"
+
+1460800650 d:\gameengine\src\gameengine\cpprefab\include\rectarea.h
+	"Slime2d.h"
+
+1460806840 source:d:\gameengine\src\gameengine\gmprefab\src\button.cpp
+	"Button.h"
+
+1460806787 d:\gameengine\src\gameengine\gmprefab\include\button.h
+	"Slime2d.h"
+	"TextureRenderer.h"
+	"RectArea.h"
+	<string>
+
+1461135301 source:d:\gameengine\src\gameengine\gmprefab\src\buttonsample.cpp
+	"ButtonSample.h"
+	<iostream>
+
+1461133754 d:\gameengine\src\gameengine\gmprefab\include\buttonsample.h
+	"Slime2d.h"
+	"TextureRenderer.h"
+	"RectArea.h"
+	"Button.h"
+	<string>
+
+1461135323 source:d:\gameengine\src\gameengine\cpprefab\src\button.cpp
+	"Button.h"
+	<iostream>
+
+1461135193 d:\gameengine\src\gameengine\cpprefab\include\button.h
+	"Slime2d.h"
+	"RectArea.h"
+	"TextureRenderer.h"
+
+1466661406 source:d:\gameengine\src\gameengine\engine\src\tilemaploader.cpp
+	"TileMapLoader.h"
+
+1466661728 d:\gameengine\src\gameengine\engine\include\tilemaploader.h
+	"NLTmxMap.h"
+	<iostream>
+	<stdlib.h>
+	<cstdio>
+
+1349263103 d:\gameengine\src\gameengine\engine\tmxmap\nltmxmap.h
+	<string>
+	<vector>
+
+1466661856 source:d:\gameengine\src\gameengine\engine\tmxmap\nltmxmap.cpp
+	"rapidxml.hpp"
+	<iostream>
+	"NLTmxMap.h"
+	<malloc.h>
+	<cstdio>
+	<string.h>
+
+1349263103 d:\gameengine\src\gameengine\engine\tmxmap\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1466672300 d:\gameengine\src\gameengine\engine\include\tilemap.h
+	"NLTmxMap.h"
+	"Define.h"
+	<iostream>
+	<stdlib.h>
+	<cstdio>
+	<string>
+
+1466948087 source:d:\gameengine\src\gameengine\engine\src\tilemap.cpp
+	"TileMap.h"
+
+1466670086 source:d:\gameengine\src\gameengine\cpprefab\src\tilemapranderer.cpp
+	"TilemapRanderer.h"
+
+1466671448 d:\gameengine\src\gameengine\cpprefab\include\tilemapranderer.h
+	"Slime2d.h"
+
+1468031950 source:d:\gameengine\src\gameengine\cpprefab\src\tilemaprenderer.cpp
+	"TilemapRenderer.h"
+	"TiledObjRenderer.h"
+	<iostream>
+
+1468030332 d:\gameengine\src\gameengine\cpprefab\include\tilemaprenderer.h
+	"Slime2d.h"
+
+1466689548 source:d:\gameengine\src\gameengine\cpprefab\src\camera.cpp
+	"Camera.h"
+
+1466689099 d:\gameengine\src\gameengine\cpprefab\include\camera.h
+	"Slime2d.h"
+
+1468031913 source:d:\gameengine\src\gameengine\cpprefab\src\tiledobjrenderer.cpp
+	"TiledObjRenderer.h"
+
+1467590237 d:\gameengine\src\gameengine\cpprefab\include\tiledobjrenderer.h
+	"Slime2d.h"
+	"TilemapRenderer.h"
+	<iostream>
+
+1477029171 source:d:\gameengine\src\gameengine\cpprefab\src\animation.cpp
+	"Animation.h"
+
+1477027958 d:\gameengine\src\gameengine\cpprefab\include\animation.h
+	"Slime2d.h"
+	"TextureRenderer.h"
+
